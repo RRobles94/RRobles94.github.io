@@ -103,10 +103,6 @@ footer{
     margin: 20px;
 }
 
-main{
-
-}
-
 form{
     margin: 40px 0;
 }
@@ -165,10 +161,6 @@ td,th{
 
 .banner{
     width: 255%;
-}
-
-main p{
-
 }
 
 .principal{
@@ -234,16 +226,18 @@ main p{
     vertical-align: top;
 }
 
+.horasasegundos{
+    padding: 3em 0;
+    text-align: center;
+    padding: 50px;
+}
+
 .items{
     line-height: 1.5;
 }
 
 .items:before{
     content:"🌠";
-}
-
-.items:first-child{
-font-weight: ;
 }
 
 .imagen-diferenciales{
@@ -274,11 +268,7 @@ font-weight: ;
         padding: 1em;
     }
 
-    .mapa-contenido{
-        width: ;
-    }
-
-    .mapa{
+   .mapa{
         text-align: center;
         width: 254%;
     }
@@ -310,4 +300,7 @@ font-weight: ;
     .diferenciales{
         width: 100%;
     }
+
+
 }
+
