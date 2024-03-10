@@ -4,8 +4,9 @@ body{
 
 header{
     background-color: #BBBBBB;
-    padding: 15px 0;
-    width: 120%;
+    padding: 120px;
+    width: 153%;
+    
 }
 
 .caja{
@@ -34,7 +35,7 @@ nav a{
 }
 
 .normas{
-    width: 940px;
+    width: 150%;
     margin: 0 auto;
     padding: 50px;
 }
@@ -93,7 +94,7 @@ footer{
     text-align: center;
     background: url(imagenes/bg.jpg);
     padding: 40px;
-    width: 120%;
+    width: 170%;
 }
 
 .copyright{
@@ -163,7 +164,7 @@ td,th{
 /* Aquí inicia el CSS para nuestra home */
 
 .banner{
-    width: 100%;
+    width: 255%;
 }
 
 main p{
@@ -267,11 +268,46 @@ font-weight: ;
     nav{
         position: static;
     }
-    .caja, .principal, .mapa-contenido, .contenido-diferenciales, .video, .header{
-        width: auto;
+    .principal{
+        width: 200%;
+        text-align: center;
+        padding: 1em;
     }
-    .lista-diferenciales, .imagen-diferenciales{
-        width: auto;
+
+    .mapa-contenido{
+        width: ;
+    }
+
+    .mapa{
+        text-align: center;
+        width: 254%;
     }
     
+    .titulo-principal1{
+        text-align: center;
+        width: 250%;
+        text-align: center;
+        font-size: 2em;
+        margin: 0 0 1em;
+        clear: left;
+    }
+
+     .contenido-diferenciales{
+        width: 240%;
+    }
+    .items{
+        width: 260%;
+    }
+    
+    .video{
+        width: 260%;
+    }
+
+    footer{
+        width: 240%;
+    }
+
+    .diferenciales{
+        width: 100%;
+    }
 }
