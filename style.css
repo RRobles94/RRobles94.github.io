@@ -82,7 +82,7 @@ nav a:hover{
    }
 
 .normas li:active{
-    border-color:#088c19;
+    border-color:#088c19;    
 }
 
 .normas li:hover h2{
@@ -93,7 +93,7 @@ footer{
     text-align: center;
     background: url(imagenes/bg.jpg);
     padding: 40px;
-    width: 100%;
+    width: 120%;
 }
 
 .copyright{
@@ -260,14 +260,14 @@ font-weight: ;
     margin: 1em auto;
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:800px) {
     h1{
         text-align: center;
     }
     nav{
         position: static;
     }
-    .caja, .principal, .mapa-contenido, .contenido-diferenciales, .video{
+    .caja, .principal, .mapa-contenido, .contenido-diferenciales, .video, .header{
         width: auto;
     }
     .lista-diferenciales, .imagen-diferenciales{
